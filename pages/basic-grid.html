@@ -10,10 +10,19 @@ Licence URI: https://www.os-templates.com/template-terms
 <html lang="">
 <!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
 <head>
-<title>Trealop</title>
+<title>Trealop | Pages | Basic Grid</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<style type="text/css">
+/* DEMO ONLY */
+.container .demo{text-align:center;}
+.container .demo div{padding:8px 0;}
+.container .demo div:nth-child(odd){color:#FFFFFF; background:#CCCCCC;}
+.container .demo div:nth-child(even){color:#FFFFFF; background:#979797;}
+@media screen and (max-width:900px){.container .demo div{margin-bottom:0;}}
+/* DEMO ONLY */
+</style>
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -32,7 +41,7 @@ Licence URI: https://www.os-templates.com/template-terms
     <div class="fl_right"> 
       <!-- ################################################################################################ -->
       <ul class="nospace">
-        <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+        <li><a href="../index.html"><i class="fas fa-home"></i></a></li>
         <li><a href="#" title="Help Centre"><i class="far fa-life-ring"></i></a></li>
         <li><a href="#" title="Login"><i class="fas fa-sign-in-alt"></i></a></li>
         <li><a href="#" title="Sign Up"><i class="fas fa-edit"></i></a></li>
@@ -59,21 +68,21 @@ Licence URI: https://www.os-templates.com/template-terms
   <header id="header" class="hoc clear">
     <div id="logo" class="fl_left"> 
       <!-- ################################################################################################ -->
-      <h1><a href="index.html">Trealop</a></h1>
+      <h1><a href="../index.html">Trealop</a></h1>
       <!-- ################################################################################################ -->
     </div>
     <nav id="mainav" class="fl_right"> 
       <!-- ################################################################################################ -->
       <ul class="clear">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a class="drop" href="#">Pages</a>
+        <li><a href="../index.html">Home</a></li>
+        <li class="active"><a class="drop" href="#">Pages</a>
           <ul>
-            <li><a href="pages/gallery.html">Gallery</a></li>
-            <li><a href="pages/full-width.html">Full Width</a></li>
-            <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-            <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-            <li><a href="pages/basic-grid.html">Basic Grid</a></li>
-            <li><a href="pages/font-icons.html">Font Icons</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="full-width.html">Full Width</a></li>
+            <li><a href="sidebar-left.html">Sidebar Left</a></li>
+            <li><a href="sidebar-right.html">Sidebar Right</a></li>
+            <li class="active"><a href="basic-grid.html">Basic Grid</a></li>
+            <li><a href="font-icons.html">Font Icons</a></li>
           </ul>
         </li>
         <li><a class="drop" href="#">Dropdown</a>
@@ -101,72 +110,18 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay gradient" style="background-image:url('images/demo/backgrounds/01.png');">
-  <div id="pageintro" class="hoc clear"> 
+<div class="wrapper bgded overlay gradient" style="background-image:url('../images/demo/backgrounds/01.png');">
+  <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <article>
-      <p>Eu leo curabitur eleifend sapien</p>
-      <h3 class="heading">Sed eros nullam quis ligula</h3>
-      <p>Elementum lectus varius aliquet quisque fringilla est in porttitor</p>
-      <footer>
-        <ul class="nospace inline pushright">
-          <li><a class="btn" href="#">Ultricies dui orci</a></li>
-          <li><a class="btn inverse" href="#">Mollis libero quis</a></li>
-        </ul>
-      </footer>
-    </article>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row2">
-  <section class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Sagittis lacus neque ut lorem integer</h6>
-      <p>Elementum nisi ac volutpat vestibulum enim mi tincidunt eros</p>
-    </div>
-    <ul class="nospace group prices">
-      <li class="one_third">
-        <article><i class="fas fa-deaf red"></i>
-          <h6 class="heading">Condimentum</h6>
-          <p>Sed porttitor justo magna odio sed lacus nunc consequat sem vel metus imperdiet lacinia suspendisse aliquet mi sed</p>
-          <p><sup>&euro;</sup><strong>80</strong><em>pcm</em></p>
-          <footer><a class="btn" href="#">Details</a></footer>
-        </article>
-      </li>
-      <li class="one_third">
-        <article><i class="fas fa-dolly green"></i>
-          <h6 class="heading">Suscipit</h6>
-          <p>Justo in tortor quis dui in purus pede luctus eget condimentum ac bibendum in justo nam condimentum congue risus</p>
-          <p><sup>&euro;</sup><strong>100</strong><em>pcm</em></p>
-          <footer><a class="btn" href="#">Details</a></footer>
-        </article>
-      </li>
-      <li class="one_third">
-        <article><i class="fas fa-hands blue"></i>
-          <h6 class="heading">Dignissim</h6>
-          <p>Aliquam auctor nisl nec diam ornare nam molestie massa quis pede vestibulum fringilla risus in metus nullam egestas</p>
-          <p><sup>&euro;</sup><strong>125</strong><em>pcm</em></p>
-          <footer><a class="btn" href="#">Details</a></footer>
-        </article>
-      </li>
+    <h6 class="heading">Basic Grid</h6>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Lorem</a></li>
+      <li><a href="#">Ipsum</a></li>
+      <li><a href="#">Dolor</a></li>
     </ul>
     <!-- ################################################################################################ -->
-  </section>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper coloured">
-  <article class="hoc cta clear"> 
-    <!-- ################################################################################################ -->
-    <h6 class="three_quarter first">Velit tristique sem vehicula laoreet nullam elementum</h6>
-    <footer class="one_quarter"><a class="btn" href="#">Ipsum pharetra leo</a></footer>
-    <!-- ################################################################################################ -->
-  </article>
+  </div>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -175,83 +130,50 @@ Licence URI: https://www.os-templates.com/template-terms
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <section id="introblocks">
-      <div class="sectiontitle">
-        <h6 class="heading">Augue pretium felis faucibus porttitor</h6>
-        <p>Metus nisl vitae ipsum integer vestibulum suspendisse potenti</p>
+    <div class="content"> 
+      <!-- ################################################################################################ -->
+      <h2>Half</h2>
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50 demo">
+        <div class="one_half first">1/2</div>
+        <div class="one_half">1/2</div>
       </div>
-      <ul class="nospace group">
-        <li class="one_third first">
-          <article><a href="#"><i class="fas fa-microphone-slash"></i></a>
-            <h6 class="heading">Class aptent taciti</h6>
-            <p>Sociosqu ad litora torquent per conubia nostra per inceptos himenaeos nullam tempus erat [&hellip;]</p>
-            <footer><a class="btn" href="#">Read More</a></footer>
-          </article>
-        </li>
-        <li class="one_third">
-          <article><a href="#"><i class="fas fa-seedling"></i></a>
-            <h6 class="heading">Id tortor etiam orci</h6>
-            <p>Justo lobortis in consequat ut ornare vel tellus nulla elementum velit pretium ultricies [&hellip;]</p>
-            <footer><a class="btn" href="#">Read More</a></footer>
-          </article>
-        </li>
-        <li class="one_third">
-          <article><a href="#"><i class="fas fa-ship"></i></a>
-            <h6 class="heading">Tristique nibh turpis</h6>
-            <p>Fermentum dui sit amet consequat felis arcu quis pede curabitur elit lacus consectetuer vel [&hellip;]</p>
-            <footer><a class="btn" href="#">Read More</a></footer>
-          </article>
-        </li>
-      </ul>
-    </section>
+      <!-- ################################################################################################ -->
+      <h2>Quarter</h2>
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first">1/4</div>
+        <div class="one_quarter">1/4</div>
+        <div class="one_quarter">1/4</div>
+        <div class="one_quarter">1/4</div>
+      </div>
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first">1/4</div>
+        <div class="one_quarter">1/4</div>
+        <div class="two_quarter">2/4 or 1/2</div>
+      </div>
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first">1/4</div>
+        <div class="three_quarter">3/4</div>
+      </div>
+      <!-- ################################################################################################ -->
+      <h2>Third</h2>
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50 demo">
+        <div class="one_third first">1/3</div>
+        <div class="one_third">1/3</div>
+        <div class="one_third">1/3</div>
+      </div>
+      <div class="group demo">
+        <div class="one_third first">1/3</div>
+        <div class="two_third">2/3</div>
+      </div>
+      <!-- ################################################################################################ -->
+    </div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
   </main>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row2">
-  <section id="latest" class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Vestibulum nec pharetra eu nisl</h6>
-      <p>Sed auctor purus vel aliquet dignissim lectus nunc semper lorem</p>
-    </div>
-    <ul class="nospace group">
-      <li class="one_third">
-        <figure><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a>
-          <figcaption>Porta facilisis</figcaption>
-        </figure>
-      </li>
-      <li class="one_third">
-        <figure><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a>
-          <figcaption>Tellus lectus nec</figcaption>
-        </figure>
-      </li>
-      <li class="one_third">
-        <figure><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a>
-          <figcaption>Pede suspendisse</figcaption>
-        </figure>
-      </li>
-    </ul>
-    <footer class="block center"><a class="btn" href="#">Tortor molestie</a></footer>
-    <!-- ################################################################################################ -->
-  </section>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
-  <div class="hoc container testimonial clear"> 
-    <!-- ################################################################################################ -->
-    <article><img src="images/demo/100x100.png" alt="">
-      <blockquote>porta volutpat sit amet scelerisque sit amet leo morbi sem magna viverra quis sollicitudin quis consectetuer quis magna integer consectetuer tellus sed dui nullam.</blockquote>
-      <h6 class="heading font-x1">A. Doe</h6>
-      <em>justo massa adipiscing</em></article>
-    <!-- ################################################################################################ -->
-  </div>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -352,8 +274,8 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
-<script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
 </body>
 </html>
