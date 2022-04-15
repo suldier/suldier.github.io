@@ -16,7 +16,7 @@
 
 //其他常用命令
 
-`grep cat ps kill pkill tail head top df echo awk sed cut paste ls ll mk rm等等`
+`history grep cat ps kill pkill tail head top df echo awk sed cut paste ls ll mk rm等等`
 
 ## nvidia-docker
 
